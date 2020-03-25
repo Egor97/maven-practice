@@ -71,6 +71,28 @@
         <artifactId>maven-project-info-reports-plugin</artifactId>
         <version>3.0.0</version>
       </plugin>
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <configuration>
+          <archive>
+            <manifest>
+              <mainClass>...</mainClass> <!-- Объявляем наш Main Class -->
+            </manifest>
+          </archive>
+          <descriptorRefs>
+            <descriptorRef>jar-with-dependencies</descriptorRef>  <!-- Объявляем имя для jar -->
+          </descriptorRefs>
+        </configuration>
+        <executions>
+          <execution>
+            <id>make-assembly</id>
+            <phase>package</phase> <!-- Привязываем выполнение к конкретной фазе мавена -->
+            <goals>
+              <goal>single</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
     </plugins>
   </build>
 </project>
