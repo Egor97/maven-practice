@@ -1,13 +1,11 @@
 package ru.bizyaev.egor;
 
-/**
- * Hello world!
- *
- */
-public class App 
+import org.apache.commons.lang3.math.NumberUtils;
+
+public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        System.out.println(NumberUtils.max(12, 43, 1, 5));
     }
 }
