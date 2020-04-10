@@ -1,0 +1,17 @@
+cmd.exe
+/X
+/C
+""C:\Program Files\Java\jdk1.8.0_241\jre\..\bin\javadoc.exe" @options @argfile"
+C:\Users\egorb\IdeaProjects\maven-practice\target\site\apidocs\allclasses-frame.html = 1586516435812
+C:\Users\egorb\IdeaProjects\maven-practice\target\site\apidocs\allclasses-noframe.html = 1586516435828
+C:\Users\egorb\IdeaProjects\maven-practice\target\site\apidocs\argfile = 1586516434516
+C:\Users\egorb\IdeaProjects\maven-practice\target\site\apidocs\constant-values.html = 1586516435640
+C:\Users\egorb\IdeaProjects\maven-practice\target\site\apidocs\deprecated-list.html = 1586516435781
+C:\Users\egorb\IdeaProjects\maven-practice\target\site\apidocs\help-doc.html = 1586516435859
+C:\Users\egorb\IdeaProjects\maven-practice\target\site\apidocs\index-all.html = 1586516435765
+C:\Users\egorb\IdeaProjects\maven-practice\target\site\apidocs\index.html = 1586516435828
+C:\Users\egorb\IdeaProjects\maven-practice\target\site\apidocs\options = 1586516434501
+C:\Users\egorb\IdeaProjects\maven-practice\target\site\apidocs\overview-tree.html = 1586516435734
+C:\Users\egorb\IdeaProjects\maven-practice\target\site\apidocs\package-list = 1586516435531
+C:\Users\egorb\IdeaProjects\maven-practice\target\site\apidocs\script.js = 1586516435890
+C:\Users\egorb\IdeaProjects\maven-practice\target\site\apidocs\stylesheet.css = 1586516435875
